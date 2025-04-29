@@ -26,6 +26,10 @@ Each task has its own folder and can be run independently by executing `main.py`
   <img src="assets/arch_ppo.png" alt="PPO architecture" width="400px"/>
 </p>
 
+<p align="center">
+  <em>Left: DDPG + Demo-EASE architecture &nbsp;&nbsp;&nbsp;&nbsp; Right: PPO + Demo-EASE architecture</em>
+</p>
+
 Each environment has its own version of the robot simulation (`kinova_sim/`).
 
 ---
