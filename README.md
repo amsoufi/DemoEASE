@@ -17,10 +17,10 @@ Each task has its own folder and can be run independently by executing `main.py`
 - `DemoEASE_P2PO/`  
   ➤ **Point-to-Point with Obstacle**, also using **DDPG + Demo-EASE**
 
-- `DemoEASE_PickPlace/` *(if added)*  
+- `DemoEASE_PickPlace/`  
   ➤ **Pick-and-Place** task using **PPO + Demo-EASE**
 
-Each environment has its own version of the robot simulation (`kinova_sim/`), and should be run as a standalone directory.
+Each environment has its own version of the robot simulation (`kinova_sim/`).
 
 ---
 
@@ -39,7 +39,7 @@ pip install -r requirements.txt
 
 3. **Run a training experiment**:
 ```bash
-cd DemoEASE_P2P     # or DemoEASE_P2PO
+cd DemoEASE_P2P     # or DemoEASE_P2PO or DemoEASE_PnP
 python main.py
 ```
 
@@ -49,7 +49,6 @@ python main.py
 
 - This codebase was built with heavy reference to [OpenAI Spinning Up](https://spinningup.openai.com/en/latest/).
 - Each sub-project can be run independently by executing `main.py`.
-- You can modify demonstrations and randomization through the respective `robot.py` and URDF files.
 - Saved logs and models will be created in the `data/` folder of each sub-project.
 - **Automated Experiment Script:**  
   An example bash script (`myscript.sh`) is provided that automates running `run.py` with different hyperparameter settings.  
