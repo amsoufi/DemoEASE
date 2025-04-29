@@ -3,7 +3,7 @@
 This repository implements **Demo-EASE**, which improves the sample efficiency of reinforcement learning for robotic manipulation by exploiting natural symmetries in the environment and integrating expert demonstrations through a combination of behavior cloning and reinforcement learning. The method is validated on point-to-point reach task with and without obstacles and pick-and-place, showing better learning performance compared to traditional RL.
 
 The experiments are based on:
-📄 [Demo-EASE: Efficient and Adaptive Skill Embedding for Robotic Manipulation](https://arxiv.org/pdf/2304.06055)
+📄 [Demo-EASE Paper](https://arxiv.org/pdf/2304.06055)
 
 ---
 
@@ -21,8 +21,8 @@ Each task has its own folder and can be run independently by executing `main.py`
   ➤ **Pick-and-Place** task using **PPO + Demo-EASE**
 
 <p align="center">
-  <img src="assets/arch_ddpg.png" width="300px"/>
-  <img src="assets/arch_ppo.png" width="300px"/>
+  <img src="assets/arch_ddpg.png" alt="DDPG architecture" width="300px" style="margin-right: 10px;"/>
+  <img src="assets/arch_ppo.png" alt="PPO architecture" width="300px"/>
 </p>
 
 Each environment has its own version of the robot simulation (`kinova_sim/`).
