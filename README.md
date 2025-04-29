@@ -21,7 +21,8 @@ Each task has its own folder and can be run independently by executing `main.py`
   ➤ **Pick-and-Place** task using **PPO + Demo-EASE**
 
 <p align="center">
-  <img src="assets/arch_ddpg.png" alt="DDPG architecture" width="300px" style="margin-right: 10px;"/>
+  <img src="assets/arch_ddpg.png" alt="DDPG architecture" width="300px"/>
+  &nbsp;&nbsp;&nbsp;&nbsp;
   <img src="assets/arch_ppo.png" alt="PPO architecture" width="400px"/>
 </p>
 
