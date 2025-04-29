@@ -20,15 +20,18 @@ Each task has its own folder and can be run independently by executing `main.py`
 - `DemoEASE_PickPlace/`  
   ➤ **Pick-and-Place** task using **PPO + Demo-EASE**
 
-<p align="center">
-  <img src="assets/arch_ddpg.png" alt="DDPG architecture" width="300px"/>
-  &nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="assets/arch_ppo.png" alt="PPO architecture" width="400px"/>
-</p>
-
-<p align="center">
-  <em>Left: DDPG + Demo-EASE architecture &nbsp;&nbsp;&nbsp;&nbsp; Right: PPO + Demo-EASE architecture</em>
-</p>
+<table align="center">
+  <tr>
+    <td align="center" valign="bottom">
+      <img src="assets/arch_ddpg.png" alt="DDPG architecture" width="300px"/><br/>
+      <em>DDPG + Demo-EASE architecture</em>
+    </td>
+    <td align="center" valign="bottom">
+      <img src="assets/arch_ppo.png" alt="PPO architecture" width="400px"/><br/>
+      <em>PPO + Demo-EASE architecture</em>
+    </td>
+  </tr>
+</table>
 
 Each environment has its own version of the robot simulation (`kinova_sim/`).
 
