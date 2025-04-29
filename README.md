@@ -22,7 +22,7 @@ Each task has its own folder and can be run independently by executing `main.py`
 
 <p align="center">
   <img src="assets/arch_ddpg.png" alt="DDPG architecture" width="300px" style="margin-right: 10px;"/>
-  <img src="assets/arch_ppo.png" alt="PPO architecture" width="300px"/>
+  <img src="assets/arch_ppo.png" alt="PPO architecture" width="400px"/>
 </p>
 
 Each environment has its own version of the robot simulation (`kinova_sim/`).
